@@ -16,7 +16,7 @@ class ExploreScreen extends StatelessWidget {
     return FutureBuilder(
       future: mockService.getExploreData(),
       builder: (context, AsyncSnapshot<ExploreData> snapshot) {
-        
+        //
         // TODO: Add Nested List Views
 
         if (snapshot.connectionState == ConnectionState.done) {
